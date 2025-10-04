@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofrimento de Jesus - Linha do Tempo</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #4a7ebb; color: #fff; text-align: center; padding: 20px; }
+    h1 { margin: 0; font-size: 1.6em; }
+    .timeline { position: relative; max-width: 800px; margin: auto; padding: 20px 0; }
+    .timeline::after { content: ''; position: absolute; width: 4px; background-color: #4a7ebb; top: 0; bottom: 0; left: 50%; margin-left: -2px; }
+    .container { padding: 10px 40px; position: relative; background: inherit; width: 50%; }
+    .container.left { left: 0; }
+    .container.right { left: 50%; }
+    .content { padding: 20px; background: white; position: relative; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .container.left::before, .container.right::before {
+        content: " "; position: absolute; width: 20px; height: 20px; right: -10px; background-color: #4a7ebb; border: 4px solid white; top: 15px; border-radius: 50%;
+    }
+    .container.right::before { left: -10px; }
+    .title { font-weight: bold; color: #4a7ebb; margin-bottom: 5px; }
+    .icon { font-size: 1.5em; margin-right: 8px; vertical-align: middle; }
+    @media screen and (max-width: 600px) {
+        .timeline::after { left: 31px; }
+        .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+        .container.right { left: 0; }
+        .container.left::before, .container.right::before { left: 15px; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sofrimento de Jesus - Linha do Tempo</h1>
+</header>
+
+<div class="timeline">
+
+    <div class="container left">
+        <div class="content">
+            <div class="title"><span class="icon">🙏</span>Getsêmani</div>
+            <p>Ansiedade extrema e hematidrose (suar sangue). Referência: Mateus 26:36-46, Lucas 22:39-44</p>
+        </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+            <div class="title"><span class="icon">⛓️</span>Prisão e Julgamento</div>
+            <p>Traição, abandono e humilhação. Referência: Mateus 26:47-68</p>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <div class="title"><span class="icon">⚔️</span>Flagelação</div>
+            <p>Chicotadas, lacerações e risco de choque. Referência: João 19:1, Mateus 27:26</p>
+        </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+            <div class="title"><span class="icon">🪵</span>Carregando a Cruz</div>
+            <p>Exaustão física extrema, humilhação pública. Referência: Mateus 27:31-32</p>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <div class="title"><span class="icon">✝️</span>Crucificação</div>
+            <p>Pregos nos pulsos e pés, hipóxia, dor intensa. Referência: João 19:17-30</p>
+        </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+            <div class="title"><span class="icon">💔</span>Morte e Separação Espiritual</div>
+            <p>Sentiu abandono e carregou os pecados do mundo. Referência: Mateus 27:46, Marcos 15:34</p>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <div class="title"><span class="icon">✨</span>Ressurreição</div>
+            <p>Venceu a morte, corpo glorificado. Referência: 1 Coríntios 15:20-22, Filipenses 3:20-21</p>
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align:center; padding:15px; color:#777;">
+    Estudo resumido por ChatGPT - Bíblia + análise fisiológica
+</footer>
+
+</body>
+</html>
